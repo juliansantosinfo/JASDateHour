@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.juliansantosinfo</groupId>
     <artifactId>JASDateHour</artifactId>
-    <version>0.01</version>
+    <version>0.02-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>JASDateHour</name>
     <description>JASDateHour is a library for making it easy to get the system date and time.</description>
@@ -14,7 +14,7 @@
         <connection>scm:git:https://github.com/juliansantosinfo/JASDateHour.git</connection>
         <developerConnection>scm:git:https://github.com/juliansantosinfo/JASDateHour.git</developerConnection>
         <url>https://github.com/juliansantosinfo/JASDateHour.git</url>
-      <tag>JASDateHour-0.01</tag>
+      <tag>HEAD</tag>
   </scm>
     
     <!-- issue management -->
