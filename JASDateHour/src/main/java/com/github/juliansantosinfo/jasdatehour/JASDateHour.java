@@ -1,4 +1,4 @@
-package br.com.juliansantos.JASDateHour;
+package com.github.juliansantosinfo.jasdatehour;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
