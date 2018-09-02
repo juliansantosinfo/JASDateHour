@@ -13,6 +13,8 @@
             <goals>
                 <goal>clean</goal>
                 <goal>install</goal>
+                <goal>clean</goal>
+                <goal>deploy</goal>
             </goals>
         </action>
         <action>
@@ -28,6 +30,8 @@
             <actionName>CUSTOM-deploy</actionName>
             <displayName>deploy</displayName>
             <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
                 <goal>clean</goal>
                 <goal>deploy</goal>
             </goals>
