@@ -1,10 +1,5 @@
-package com.github.juliansantosinfo.jasdatehour;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 /* 
- * Copyright (C) 2018 Julian Santos 
+ * Copyright (C) 2018 Julian A. Santos 
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,11 +14,15 @@ import java.util.Date;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+package com.github.juliansantosinfo.jasdatehour;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * <code>JASDateHour</code> is a library for making it easy to get the system 
  * date and time.
- * @author Julian Santos
+ * @author Julian A. Santos
  * @since 22/08/2018
  * @version 0.01
  * @see <a href="https://github.com/juliansantosinfo/JASDateHour">Github</a>
