@@ -25,7 +25,7 @@ import java.util.Date;
  * date and time.
  * @author Julian Santos
  * @since 22/08/2018
- * @version 1.0
+ * @version 0.01
  * @see <a href="https://github.com/juliansantosinfo/JASDateHour">Github</a>
  */
 public class JASDateHour {
