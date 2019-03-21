@@ -34,7 +34,7 @@ public class JASDateHour {
     public static final String HOUR_FORMAT_DEFAULT = "HH:mm:ss";
     
     private static SimpleDateFormat simpleDateFormat;
-    private static Date date = new Date();
+    private static Date date;
     
     /**
      * Gets the object of type SimpleDateFormat.
@@ -57,6 +57,7 @@ public class JASDateHour {
      * @return date
      */
     public Date getDate() {
+        date = new Date();
         return date;
     }
     
@@ -65,6 +66,7 @@ public class JASDateHour {
      * @param date instance of the Date class.
      */
     public void setDate(Date date) {
+        date = new Date();
         JASDateHour.date = date;
     }
     
@@ -73,6 +75,7 @@ public class JASDateHour {
      * @return current date
      */
     public static String currentDate() {
+        date = new Date();
         simpleDateFormat = new SimpleDateFormat(DATA_FORMAT_DEFAULT);
         return simpleDateFormat.format(date);
     }
@@ -83,6 +86,7 @@ public class JASDateHour {
      * @return current date
      */
     public static String getDateInFormat(String format) {
+        date = new Date();
         simpleDateFormat = new SimpleDateFormat(format);
         return simpleDateFormat.format(date);
     }
@@ -92,6 +96,7 @@ public class JASDateHour {
      * @return current hour
      */
     public static String currentHour() {
+        date = new Date();
         simpleDateFormat = new SimpleDateFormat(HOUR_FORMAT_DEFAULT);
         return simpleDateFormat.format(date);
     }
@@ -102,6 +107,7 @@ public class JASDateHour {
      * @return current hour
      */
     public static String getHourInFormat(String format) {
+        date = new Date();
         simpleDateFormat = new SimpleDateFormat(format);
         return simpleDateFormat.format(date);
     }
